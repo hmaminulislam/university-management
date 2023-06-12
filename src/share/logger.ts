@@ -27,6 +27,13 @@ const logger = createLogger({
     new transports.Console(),
     new transports.File({
       level: 'info',
+      filename: path.join(
+        process.cwd(),
+        'logs',
+        'winston',
+        'successes',
+        'success.log'
+      ),
     }),
     new DailyRotateFile({
       filename: path.join(
@@ -34,7 +41,7 @@ const logger = createLogger({
         'logs',
         'winston',
         'successes',
-        'sucess-%DATE%.log'
+        'success-%DATE%.log'
       ),
       datePattern: 'YYYY-MM-DD-HH',
       zippedArchive: true,
@@ -57,6 +64,13 @@ const errorLogger = createLogger({
     new transports.Console(),
     new transports.File({
       level: 'error',
+      filename: path.join(
+        process.cwd(),
+        'logs',
+        'winston',
+        'errors',
+        'error.log'
+      ),
     }),
     new DailyRotateFile({
       filename: path.join(

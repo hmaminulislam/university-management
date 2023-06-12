@@ -1,0 +1,56 @@
+{
+  message: 'University app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-12T16:02:09.239Z'
+}
+{
+  message: 'University app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-12T16:04:03.124Z'
+}
+{
+  message: 'University app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-12T16:05:16.613Z'
+}
+{
+  message: 'University app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-12T16:05:19.114Z'
+}
+{
+  message: 'University app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-12T16:05:24.397Z'
+}
+{
+  message: 'University app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-12T16:21:51.973Z'
+}
+{
+  message: 'University app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-12T16:23:04.262Z'
+}
+{
+  message: 'University app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-06-12T16:29:09.054Z'
+}
